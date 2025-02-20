@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Whitelist</title>
+    <meta name="description" content="PRAGMATIC PLAY - PGSOFT - NOLIMIT CITY - HABANERO - HACKSAW - JOKER - RED TIGER">
+    <meta name="keywords" content="User Whitelist, PRAGMATIC PLAY, PGSOFT, NOLIMIT CITY, HABANERO, HACKSAW, JOKER, RED TIGER">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="id">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="canonical" href="https://user-whitelist.pages.dev/">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "User Whitelist",
+        "description": "PRAGMATIC PLAY - PGSOFT - NOLIMIT CITY - HABANERO - HACKSAW - JOKER - RED TIGER",
+        "url": "https://user-whitelist.pages.dev/"
+    }
+    </script>
+</head>
+<body>
+    <!-- Video Background -->
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video-1">
+            <source src="pgsoft1.mp4" type="video/mp4">
+        </video>
+        <video autoplay muted loop id="bg-video-2">
+            <source src="pgsoft2.mp4" type="video/mp4">
+        </video>
+        <video autoplay muted loop id="bg-video-3">
+            <source src="pragmatic.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Language Selection -->
+    <div class="language-selector">
+        <label for="language" id="language-label"></label>
+        <select id="language">
+            <option value="id" data-img="/language/indonesia.png">Indonesia</option>
+            <option value="en" data-img="/language/english.png">English</option>
+        </select>
+    </div>    
+
+    <!-- Logo Section -->
+    <div class="logo">
+        <img src="logo.png" alt="User Whitelist Logo">
+    </div>
+
+    <!-- Input Username Section -->
+    <div class="input-section">
+        <input type="text" id="username" placeholder="MASUKAN USERNAME">
+    </div>
+
+    <!-- Input Site Section -->
+    <div class="input-section">
+        <input type="text" id="site" placeholder="MASUKAN NAMA SITUS">
+    </div>
+
+    <!-- Verification Button -->
+    <button id="verify-btn">TOMBOL VERIFIKASI</button>
+
+    <!-- Information Text -->
+    <p class="info-text" id="info-text">Limit Verifikasi User ID Hanya 1.000 Member Per Hari</p>
+
+    <!-- Jackpot User List -->
+    <div class="jackpot-list">
+        <h3 id="jackpot-title">DAFTAR USER ID MENDAPATKAN JACKPOT HARI INI</h3>
+        <div class="member-count">
+            <span id="member-count">10</span> <span id="member-label">MEMBER</span>
+        </div>
+        <ul id="user-list">
+            <!-- Randomized users will be inserted here -->
+        </ul>
+
+        <!-- Pagination Buttons -->
+        <div id="pagination" class="pagination-container"></div>
+        <button id="prev-page-btn" style="display:none;">Halaman Sebelumnya</button>
+        <button id="next-page-btn" style="display:none;">Halaman Berikutnya</button>
+    </div>
+
+        <!-- New Withdraw Section -->
+        <div class="wrapper-transactions">
+            <h3 class="text-centertitle">DAFTAR PENARIKAN</h3>
+            <div class="content-trans">
+                <div class="withdraw-members"></div>
+            </div>
+        </div>
+
+    <!-- Success Popup -->
+    <div id="success-popup" style="display: none;">
+        <div class="success-container">
+            <div class="checkmark">
+                <svg viewBox="0 0 52 52">
+                    <path d="M14 27 L22 35 L38 17" />
+                </svg>
+            </div>
+            <p>Sukses! Verifikasi Selesai.</p>
+        </div>
+    </div>
+
+    <footer>
+        <h4 id="provider-title">Support Provider Slot</h4>
+        <ul class="provider-list">
+            <li>
+                <img src="/provider/pragmatic.png" alt="Pragmatic Play Logo">
+                <span>Pragmatic Play</span>
+            </li>
+            <li>
+                <img src="/provider/pgsoft.png" alt="PGSoft Logo">
+                <span>PGSoft</span>
+            </li>
+            <li>
+                <img src="/provider/nolimit.png" alt="Nolimit City Logo">
+                <span>Nolimit City</span>
+            </li>
+            <li>
+                <img src="/provider/hacksawgaming.png" alt="Hacksaw Gaming Logo">
+                <span>Hacksaw Gaming</span>
+            </li>
+            <li>
+                <img src="/provider/redtiger.png" alt="Red Tiger Logo">
+                <span>Red Tiger</span>
+            </li>
+            <li>
+                <img src="provider/habanero.png" alt="Habanero Logo">
+                <span>Habanero</span>
+            </li>
+            <li>
+                <img src="/provider/joker.png" alt="Joker Gaming Logo">
+                <span>Joker Gaming</span>
+            </li>
+        </ul>
+
+            <!-- Copyright Footer -->
+    <div class="footer-copyright">
+        <p>&copy; 2025 UserWhitelist. All Rights Reserved.</p>
+    </div>
+    
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
